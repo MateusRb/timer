@@ -1,16 +1,30 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #f0f0f0;
+  background: black;
+  color: red;
 }
 
-.cronometro {
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+}
+
+.header-container {
   font-size: 3em;
-  margin-top: 20px;
 }
 
-button {
-  font-size: 1.5em;
-  padding: 10px 20px;
-  margin: 10px;
+span {
+  font-size: 5em;
 }
+
+.input-container {
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 20px;
+  display: contents;
+}
+
